@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    background-color: black;
+}
+li,a,button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ecf0f1;
+    text-decoration: none;
+    margin-left: auto;
+}
+.menu li a{
+    color: black;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-image: url(abb2.png);
+    
+}
+.fixcart{
+    position: fixed;
+    right: 45px;
+    bottom: 45px;
+}
+.fixcart div{
+    color: black;
+    display: inline;
+    padding: 10px;
+    position: fixed;
+    right: 70px;
+    bottom: 75px;
+}
+.fixcart h1 a{
+    font-size: larger;
+}
+.fixcart h1{
+    background-color: darkmagenta;
+    padding: 20px;
+    border-radius: 50%;
+    color: white;
+}
+.gg-menu{
+    size: 4rem;
+}
+.gg-menu:hover{
+    color: coral;
+}
+.menu{
+    z-index: 4;
+    position: absolute;
+    right: 0px;
+    bottom: 30px;
+    background-image: url(abb2.png);
+    padding: 10px;
+    border-radius: 15px;
+    display: none;
+    cursor: pointer;
+}
+.menu ul{
+    padding: 30px;
+    
+}
+.menu ul li{
+    list-style: none;
+    padding: 30px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border-bottom: 10px black;
+}
+.menu ul li:hover{
+    background-color: darkmagenta;
+    color: white;
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: black;
+}
+.items ul li {
+    list-style: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 32px;
+}
+.items ul li a:hover{
+    color: aqua;
+    transition: 0.1ms;
+}
+.after{
+    display: none;
+}
+.logo{
+    cursor: pointer;
+}
+.bars{
+    list-style: none;
+}
+.bars li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+.bars li a{
+    transition:all 0.3s ease 0s;
+    padding: 10px 35px;
+}
+.bars li a:hover{
+    color: #0088a9;
+}
+button{
+    padding: 9px 25px;
+    background-color:darkmagenta;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition:all 0.3s ease 0s;
+    border-style: solid;
+}
+button:hover{
+    background-color:rgba(0,136,139,0.2);
+}
+.container{
+    width: 200vmin;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    top: 36%;
+    left:50%;
+    overflow: hidden;
+    border: 15px solid ;
+    border-color:white;
+    border-radius: 8px;
+    box-shadow: 10px 25px 30px rgba(30,30,200,0.3);
+}
+.wrapper{
+    width: 252%;
+    display: flex;
+    animation: slide 13s infinite;
+    
+}
+.container .wrapper img{
+    width: 100%;
+}
+@keyframes slide {
+    0%{
+        transform: translate(0);
+    }
+    25%{
+        transform: translate(0);
+    }
+    30%{
+        transform: translate(-100%);
+    }
+    50%{
+        transform: translate(-100%);
+    }
+    55%{
+        transform: translate(-200%);
+    }
+    75%{
+        transform: translate(-200%);
+    }
+    80%{
+        transform: translate(-300%);
+    }
+    100%{
+        transform: translate(-300%);
+    }
+}
+.partb{
+    margin-top: 18%;
+    display: flex;
+    color: black;
+    background-color: rgba(0,0,0,0.8);
+    align-items: center;
+    justify-content: center;
+}
+.partb ul li{
+    display: flex;
+    display: inline-block;
+    padding: 15px 15px;
+}
+.partb ul li a:hover{
+    color: aquamarine;
+}
+
+.filbar{
+    z-index: 3;
+    width: 1200px;
+    height: 240px;
+    background-color:indigo;
+    color: white;
+    margin-left: 20%;
+    position: absolute;
+    border-radius: 25px;
+    border: none;
+    transition: ease 2s;
+    display: none;
+}
+.filbar select{
+    background-color: white;
+    color: darkmagenta;
+    padding: 10%;
+    border: none;
+}
+.options option{
+    width: 700px;
+    overflow: show;
+
+}
+.filbar{
+    padding: 20px;
+}
+.filbar table{
+    padding: 15px;
+}
+.filbar table tr{
+    padding: 25px;
+    text-align: center;
+}
+.filbar table td{
+    padding: 25px;
+    text-align: center;
+}
+.filbar table tr td:hover{
+    color: black;
+    background-color: white;
+}
+.filbar table tr td{
+    background-color:darkmagenta;
+}
+.filbar button{
+    margin-left: 60%;
+}
+
+.catbar{
+    z-index: 3;
+    width: 1200px;
+    height: 240px;
+    background-color:indigo;
+    color: white;
+    margin-left: 20%;
+    position: absolute;
+    border-radius: 25px;
+    border: none;
+    transition: ease 2s;
+    display: none;
+}
+.catbar select{
+    background-color: white;
+    color: darkmagenta;
+    padding: 10%;
+    border: none;
+}
+.options option{
+    width: 700px;
+    overflow: show;
+
+}
+.catbar{
+    padding: 20px;
+}
+.catbar table{
+    padding: 15px;
+}
+.catbar table tr{
+    padding: 25px;
+    text-align: center;
+}
+.catbar table td{
+    padding: 25px;
+    text-align: center;
+}
+.catbar table tr td:hover{
+    color: black;
+    background-color: white;
+}
+.catbar table tr td{
+    background-color:darkmagenta;
+}
+.catbar button{
+    margin-left: 60%;
+}
+
+.brandbar{
+    z-index: 3;
+    width: 1200px;
+    height: 240px;
+    background-color:indigo;
+    color: white;
+    margin-left: 20%;
+    position: absolute;
+    border-radius: 25px;
+    border: none;
+    transition: ease 2s;
+    display: none;
+}
+.brandbar select{
+    background-color: white;
+    color: darkmagenta;
+    padding: 10%;
+    border: none;
+}
+.options option{
+    width: 700px;
+    overflow: show;
+
+}
+.brandbar{
+    padding: 20px;
+}
+.brandbar table{
+    padding: 15px;
+}
+.brandbar table tr{
+    padding: 25px;
+    text-align: center;
+}
+.brandbar table td{
+    padding: 25px;
+    text-align: center;
+}
+.brandbar table tr td:hover{
+    color: black;
+    background-color: white;
+}
+.brandbar table tr td{
+    background-color:darkmagenta;
+}
+.brandbar button{
+    margin-left: 60%;
+}
+
+.inp{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-image: url(abb2.png);
+    padding: 15px 10px;
+}
+.input{
+    padding: 10px;
+    width: 60%;
+    text-align: center;
+}
+.products{
+    background-image: url(abb2.png);
+}
+.cartcount{
+    margin-left: 50px;
+    margin-right: 30px;
+}
+
+.products h1{
+    color: white;
+    background-image: url(abb2.png);
+    text-align: center;
+    justify-content: center;
+    padding: 10px 25px;
+}
+.allpro:hover{
+    background-color:white;
+    color: black;
+}
+.allpro:hover img{
+    transform: scale(0.7);
+}
+.allpro{
+    background-color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    border-style: solid;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.allpro{
+    padding: 27px 27px;
+}
+.allpro p{
+    color: #0088a9;
+
+}
+.cartadd{
+    color: white;
+    background-color: darkmagenta;
+    padding: 10px;
+    border-radius: 10px;
+}
+.cartadd:hover{
+    background-color:green;
+}
+.buy:hover{
+    background-color:cadetblue;
+}
+.buy{
+    color: white;
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px;
+    top: 0px;
+}
+span{
+    color: gold;
+}
+.products{
+    justify-content: center;
+    align-items: center;
+}
+.allpro img{
+    transition: 0.5s;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+.foot{
+    background-image: url(abb2.png);
+    padding: 15px;
+    color: white;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+
+}
+.icons a{
+    text-decoration: none;
+    padding: 7px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
+.icons a i{
+    font-size: 2em;
+    color:darkmagenta;
+    opacity: 0.9;
+}
+.icons a:hover{
+    transition: 0.1s;
+    background-color: #111;
+    color: white;
+}
+.icons a:hover i{
+    color: white;
+    transition: 0.5s;
+    background-color: black;
+}
+.priv ul{
+    display: flex;
+    justify-content: center;
+}
+.priv li{
+    color: white;
+    margin: 7px;
+    text-decoration: none;
+    font-size: 20px;
+    opacity: 0.7;
+    transition: 0.5s;
+    list-style: none;
+}
+.priv ul li a{
+    color: white;
+}
+.priv ul li a:hover{
+    opacity: 1;
+}
+.priv ul li a:hover{
+    background-image: url(abb2.png);
+    color:aquamarine;
+    transition: .2s;
+}
+.copyr p{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+}

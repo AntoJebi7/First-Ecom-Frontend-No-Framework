@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+body{
+    background-image: url(abb2.png);
+}
+.header{
+    padding: 10px;
+    background-color: darkslategray;
+    color: white;
+}
+.content{
+    text-align: center;
+    justify-content: center;
+    padding: 40px;
+    
+}
+.content{
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 10px;
+    border-color:darkslategray;
+}
+.content:hover{
+    border-color:cadetblue;
+}
+.Yearly li{
+    list-style: none;
+    padding: 15px;
+    
+}
+.content{
+    background-color: darkslategrey;
+    color: white;
+    display: block;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 20px;
+}
+.header h1{
+    background-color: forestgreen;
+    display: inline;
+}
+.Yearly button{
+    padding: 15px;
+    width: 300px;
+    background-color:cadetblue;
+    color: white;
+}
+.Yearly button:hover{
+    color: black;
+    background-color: white;
+}
+.content h1{
+    color: white;
+    background-color:forestgreen;
+    padding: 10px;
+    display: inline;
+}
+.foot{
+    background-color: darkslategray;
+    padding: 15px;
+    color: white;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+
+}
+.icons a{
+    text-decoration: none;
+    padding: 7px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
+.icons a i{
+    font-size: 2em;
+    color:darkcyan;
+    opacity: 0.9;
+}
+.icons a:hover{
+    transition: 0.1s;
+    background-color: #111;
+    color: white;
+}
+.icons a:hover i{
+    color: white;
+    transition: 0.5s;
+    background-color: black;
+}
+.priv ul{
+    display: flex;
+    justify-content: center;
+}
+.priv li{
+    color: white;
+    margin: 7px;
+    text-decoration: none;
+    font-size: 20px;
+    opacity: 0.7;
+    transition: 0.5s;
+    list-style: none;
+}
+.priv ul li a{
+    color: white;
+}
+.priv ul li a:hover{
+    opacity: 1;
+}
+.priv ul li a:hover{
+    background-image: url(abb2.png);
+    color:aquamarine;
+    transition: .2s;
+}
+.copyr p{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+}

@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color:darkslategray;
+}
+.headtitle{
+    background-image: url(abb2.png);
+    color: white;
+    padding: 15px;
+}
+
+.carttitle{
+    margin-top: 10px;
+    display:inline-block;
+    padding: 15px;
+    margin-left: 10%;
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.fixtab{
+    background-image: url(abb2.png);
+    color: white;
+    padding: 15px;
+    position: fixed;
+    bottom: 0px;
+    width: 1900px;
+    overflow: hidden;
+}
+.fixtab h1{
+    display: inline-block;
+}
+.fixtab h3{
+    display: inline-block;
+    margin-left: 1400px;
+}
+.headtitle button{
+    background-color: darkmagenta;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    margin-left: 1700px;
+}
+.headtitle button:hover{
+    background-color: darkcyan;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
