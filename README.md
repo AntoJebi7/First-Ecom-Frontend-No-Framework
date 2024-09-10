@@ -17,10 +17,4 @@ List key features of your e-commerce website:
 
 Add more technologies if your project uses other libraries or frameworks.
 
-## Getting Started
 
-### Prerequisites
-
-Make sure you have the following installed:
-
-- Node JS
