@@ -2,6 +2,8 @@
 A year ago, I created my first eCommerce frontend using just HTML and CSS, before learning frameworks like React. The project lacks responsiveness and structure, with all resources like videos and images stored in the same folder. While the repository has no current professional use, it remains a reminder of my early development journey.
 This is the simple frontend codebase for an e-commerce website developed using HTML, CSS, and JavaScript.
 
+(I'm no longer actively working on it, but contributions to improve the project are welcome.)
+
 ## Features
 
 List key features of your e-commerce website:
